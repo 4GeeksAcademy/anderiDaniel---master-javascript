@@ -1,1 +1,5 @@
 // Write your function here
+let isOddLength = (word) => { return word.length % 2 !== 0}
+
+let output = isOddLength('special');
+console.log(output); // --> true
